@@ -1,5 +1,5 @@
 require 'pry'
-require 'translator'
+require_relative 'pig_latin_translation'
 
 phrase = "Get the hell out"
 translator = PigLatinTranslation.new(phrase)
